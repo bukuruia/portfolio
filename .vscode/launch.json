@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\wamp64\\www\\portfolio\\index.html"
+            "file": "D:\\Users\\bukuruofficial\\Documents\\portfolio\\index.html"
         }
     ]
 }

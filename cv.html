@@ -7,44 +7,210 @@
 </head>
 <body>
 
-<header>
-  <nav>
-    <img src="img/profil.jpg" alt="Photo de profil">
-    <ul>
-      <li><a href="index.html">Accueil</a></li>
-      <li><a href="cv.html">CV</a></li>
-      <li><a href="projets.html">Projets</a></li>
-      <li><a href="experiences.html">Expériences</a></li>
-    </ul>
-  </nav>
+<header class="main-header">
+  <div class="header-container">
+    <div class="logo">
+      <span>&lt;/&gt;</span> Ian Bukuru
+    </div>
+
+   <nav class="nav-links">
+      <a href="index.html">Accueil</a>
+      <a href="projets.html">Projets</a>
+      <a href="experiences.html">Expériences</a>
+      
+    </nav>
+    <a href="cv.html" class="cta-btn">Voir mon CV</a>
+  </div>
 </header>
 
 <main class="container">
   <h2>Mon CV</h2>
 
-  <section class="card">
-    <h3>Formation</h3>
-    <p>Bachelor Informatique – ESEO <br>En cours depuis 2025</p>
+  <!-- Profil Professionnel -->
+  <section class="profil">
+    <h3>👨‍💻 Profil Professionnel</h3>
+    <p>
+      Étudiant en Bachelor Informatique & IA à l'ESEO Angers, je maîtrise le développement web full stack 
+      (HTML5, CSS3, JavaScript, PHP, MySQL) grâce à des projets concrets. Autonome, rigoureux et passionné 
+      par la tech, je recherche une alternance de 24 mois, à partir du 31 août 2026, pour contribuer à vos 
+      projets et monter en compétences.
+    </p>
   </section>
 
-  <section class="card">
-    <h3>Compétences</h3>
-    <ul>
-      <li>HTML / CSS / JavaScript</li>
-      <li>C / Algorithmique</li>
-      <li>Git / GitHub</li>
+  <!-- Formation -->
+  <section>
+    <h3>🎓 Formation</h3>
+    
+    <div class="cv-item">
+      <h4>Bachelor Informatique et Intelligence Artificielle</h4>
+      <p><strong>ESEO - École Supérieure d'Électronique de l'Ouest</strong> | Angers, France</p>
+      <p class="cv-date">Depuis 2025 – En cours</p>
+    </div>
+
+    <div class="cv-item">
+      <h4>Baccalauréat</h4>
+      <p><strong>Lycée SOS HG de Bujumbura</strong> | Bujumbura, Burundi</p>
+      <p class="cv-date">2021 - 2024</p>
+    </div>
+  </section>
+
+  <!-- Compétences Techniques -->
+  <section>
+    <h3>💻 Compétences Techniques</h3>
+    
+    <div class="cv-competence">
+      <h4>Frontend</h4>
+      <ul>
+        <li>HTML5, CSS3, JavaScript (ES6+), Bootstrap</li>
+        <li>Notions : Angular, React</li>
+      </ul>
+    </div>
+
+    <div class="cv-competence">
+      <h4>Backend</h4>
+      <ul>
+        <li>PHP, Node.js (en apprentissage)</li>
+        <li>MySQL (conception BDD, requêtes complexes)</li>
+      </ul>
+    </div>
+
+    <div class="cv-competence">
+      <h4>Outils & Collaboration</h4>
+      <ul>
+        <li>Git, GitHub (gestion de versions, travail en équipe)</li>
+        <li>VS Code</li>
+      </ul>
+    </div>
+
+    <div class="cv-competence">
+      <h4>Méthodologie</h4>
+      <ul>
+        <li>Développement Agile, API RESTful, Responsive Design</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projets Académiques -->
+  <section>
+    <h3>🚀 Projets Académiques & Réalisations</h3>
+    
+   <div class="cv-projet">
+  <h4>Letterix – Application de Jeux de Mots (Full Stack)</h4>
+
+  <p class="cv-tech">
+    <em>Technologies : HTML5, CSS3, JavaScript, PHP, MySQL</em>
+  </p>
+
+  <p>
+    🔗 <a href="https://letterix.rf.gd/projet-web-v2" target="_blank" class="project-link">
+      Voir le projet en ligne
+    </a>
+  </p>
+
+  <ul>
+    <li>Conception et développement complet d'une application web interactive de jeux de mots</li>
+    <li>Création d'une base de données MySQL pour gérer utilisateurs, scores et statistiques</li>
+    <li>Développement backend PHP (authentification sécurisée, logique métier)</li>
+    <li>Implémentation d'API REST pour la communication client-serveur</li>
+  </ul>
+</div>
+
+
+   <div class="cv-projet">
+  <h4>Visit East Africa – Site Web Touristique (Frontend)</h4>
+
+  <p class="cv-tech">
+    <em>Technologies : HTML5, CSS3, JavaScript, Git, GitHub</em>
+  </p>
+
+  <p>
+    🔗 <a href="https://visiteastafrica.kesug.com/?i=1" target="_blank" class="project-link">
+      Visiter le site
+    </a>
+  </p>
+
+  <ul>
+    <li>Développement d'un site responsive présentant des destinations touristiques d'Afrique de l'Est</li>
+    <li>Intégration d'animations JavaScript pour améliorer l'expérience utilisateur</li>
+    <li>Collaboration en équipe via GitHub</li>
+  </ul>
+</div>
+
+
+  <!-- Expériences -->
+  <section>
+    <h3>💼 Expériences & Engagements</h3>
+    
+    <div class="cv-experience">
+      <h4>Capitaine d'Équipe – Compétition Internationale de Robotique</h4>
+      <p class="cv-date">Septembre 2024 | Athènes, Grèce</p>
+      <ul>
+        <li>Représentation de mon pays lors d'une compétition internationale</li>
+        <li>Leadership d'équipe et coordination des missions techniques complexes</li>
+        <li>Résolution de problèmes sous contrainte de temps et prise de décision rapide</li>
+      </ul>
+    </div>
+
+    <div class="cv-experience">
+      <h4>Bénévole – Association Cop 1</h4>
+      <p class="cv-date">2026 | Angers, France</p>
+      <ul>
+        <li>Participation à la collecte et distribution de produits solidaires</li>
+        <li>Travail d'équipe et engagement citoyen</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Langues -->
+  <section>
+    <h3>🌍 Langues</h3>
+    <ul class="cv-langues">
+      <li><strong>Français :</strong> Avancé</li>
+      <li><strong>Anglais :</strong> Intermédiaire</li>
+      <li><strong>Kirundi :</strong> Natif</li>
+      <li><strong>Swahili :</strong> Intermédiaire</li>
     </ul>
   </section>
-    <section class="card">
-        
-    </section>
 
-  <a href="CV_2026-01-19_Ian Kenny_BUKURU.pdf" class="btn" download>Télécharger mon CV</a>
+  <!-- Atouts -->
+  <section>
+    <h3>⭐ Atouts & Qualités</h3>
+    <p class="cv-atouts">
+      <span class="cv-badge">Sérieux</span>
+      <span class="cv-badge">Motivé</span>
+      <span class="cv-badge">Curieux</span>
+      <span class="cv-badge">Esprit d'équipe</span>
+      <span class="cv-badge">Rigoureux</span>
+      <span class="cv-badge">Autonome</span>
+      <span class="cv-badge">Adaptabilité</span>
+    </p>
+  </section>
+
+  <!-- Centres d'intérêt -->
+  <section>
+    <h3>🎯 Centres d'Intérêt</h3>
+    <p>🍳 Cuisine africaine • ⚽ Sport • 💡 Technologies émergentes • 🎵 Musique</p>
+  </section>
+
+
 </main>
+<footer class="main-footer" id="contact">
+  <div class="footer-container">
 
-<footer>
-  <p>© 2026 – Ian Kenny Bukuru</p>
+    <div class="contact-links" >
+      <a href="mailto:bukuruiankenny8@gmail.com">📧 bukuruiankenny8@gmail.com</a>
+      <a href="tel:+33600000000">📞 +33 7 46 57 32 07</a>
+      <a href="https://www.linkedin.com/in/bukuru-ian-kenny-27ab5b3a0" target="_blank">💼 LinkedIn</a>
+      <a href="https://github.com/bukuruia" target="_blank">💻 GitHub</a>
+    </div>
+
+    <p class="footer-bottom">
+      © 2026 Ian Bukuru — Portfolio Développeur
+    </p>
+
+  </div>
 </footer>
+
 
 </body>
 </html>

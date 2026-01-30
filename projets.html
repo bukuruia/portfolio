@@ -6,40 +6,73 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<header class="main-header">
+  <div class="header-container">
+    <div class="logo">
+      <span>&lt;/&gt;</span> Ian Bukuru
+    </div>
 
-<header>
-  <nav>
-    <img src="img/profil.jpg" alt="Photo de profil">
-    <ul>
-      <li><a href="index.html">Accueil</a></li>
-      <li><a href="cv.html">CV</a></li>
-      <li><a href="projets.html">Projets</a></li>
-      <li><a href="experiences.html">Expériences</a></li>
-    </ul>
-  </nav>
+   <nav class="nav-links">
+      <a href="index.html">Accueil</a>
+      <a href="projets.html">Projets</a>
+      <a href="experiences.html">Expériences</a>
+      
+    </nav>
+      <a href="cv.html" class="cta-btn">Voir mon CV</a>
+
+  </div>
 </header>
-
 <main class="container">
   <h2>Projets académiques</h2>
-
-  <div class="grid">
+  
+  <!-- ⬇️ AJOUT DE LA DIV projects-grid ⬇️ -->
+  <div class="projects-grid">
     <div class="card">
-      <img src="images/projet1.png" alt="Projet USSD">
-      <h3>Simulation USSD en C</h3>
-      <p>Gestion des utilisateurs, authentification et transactions.</p>
+      <img src="img/letterix.png" alt="Projet Web Letterix">
+      <h3>Letterix – Application de Jeux de Mots (Full Stack)</h3>
+      <p class="cv-tech"><em>Technologies : HTML5, CSS3, JavaScript, PHP, MySQL</em></p>
+      <ul>
+        <li>Conception et développement complet d'une application web interactive de jeux de mots</li>
+        <li>Création d'une base de données MySQL pour gérer utilisateurs, scores et statistiques</li>
+        <li>Développement backend PHP (authentification sécurisée, logique métier) et frontend JavaScript dynamique</li>
+        <li>Implémentation d'API REST pour la communication client-serveur</li>
+      </ul>
     </div>
-
+    
     <div class="card">
-      <img src="images/projet1.png" alt="Projet Web">
-      <h3>Projet Web</h3>
-      <p>Site web académique avec HTML, CSS et JavaScript.</p>
+      <img src="img/visiteastafrica.png" alt="Projet Web">
+      <h3>Visit East Africa – Site Web Touristique (Frontend)</h3>
+      <p class="cv-tech"><em>Technologies : HTML5, CSS3, JavaScript, Git, GitHub</em></p>
+      <ul>
+        <li>Développement d'un site responsive présentant des destinations touristiques d'Afrique de l'Est</li>
+        <li>Intégration d'animations JavaScript pour améliorer l'expérience utilisateur</li>
+        <li>Collaboration en équipe via GitHub avec gestion de versions et respect des deadlines</li>
+      </ul>
     </div>
   </div>
+  <!-- ⬆️ FIN DE LA DIV projects-grid ⬆️ -->
+  
 </main>
+<footer class="main-footer" id="contact">
+  <div class="footer-container">
 
-<footer>
-  <p>© 2026 – Ian Kenny Bukuru</p>
+    
+
+    <div class="contact-links">
+      <a href="mailto:bukuruiankenny8@gmail.com">📧 bukuruiankenny8@gmail.com</a>
+      <a href="tel:+33600000000">📞 +33 7 46 57 32 07</a>
+      <a href="https://www.linkedin.com/in/bukuru-ian-kenny-27ab5b3a0" target="_blank">💼 LinkedIn</a>
+      <a href="https://github.com/bukuruia" target="_blank">💻 GitHub</a>
+    </div>
+
+    <p class="footer-bottom">
+      © 2026 Ian Bukuru — Portfolio Développeur
+    </p>
+
+  </div>
 </footer>
+</body>
+</html>
 
 </body>
 </html>
